@@ -3,9 +3,12 @@
   "version": "1.0.0",
   "description": "It provides few simple formulas for estimating helicopter rotor parameters in hovering flight. Those should be use only as a rule of thumb only, for getting the very initial idea.",
   "main": "dist/index.js",
+  "files": ["dist"],
   "scripts": {
     "build": "tsc",
-    "test": "jest"
+    "ci": "npm run test-build & npm t & wait",
+    "test": "jest",
+    "test-build": "npm run build && node test-build.js"
   },
   "repository": {
     "type": "git",
@@ -13,18 +16,11 @@
   },
   "keywords": [
     "Helicopter",
-    "Main",
-    "rotor",
-    "Rotor",
-    "thrust",
-    "Rotor",
-    "diameter",
-    "Rotor",
-    "power",
-    "Rotor",
-    "figure",
-    "of",
-    "merit"
+    "Main rotor",
+    "Rotor thrust",
+    "Rotor diameter",
+    "Rotor power",
+    "Rotor figure of merit"
   ],
   "author": "Marcin Ruszkowski",
   "license": "ISC",
