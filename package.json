@@ -1,6 +1,6 @@
 {
   "name": "zhukovsky-rotor",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "It provides few simple formulas for estimating helicopter rotor parameters in hovering flight. Those should be use only as a rule of thumb only, for getting the very initial idea.",
   "main": "dist/index.js",
   "files": [
