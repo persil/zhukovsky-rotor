@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "It provides few simple formulas for estimating helicopter rotor parameters in hovering flight. Those should be use only as a rule of thumb only, for getting the very initial idea.",
   "main": "dist/index.js",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "tsc",
     "ci": "npm run test-build & npm t & wait",
